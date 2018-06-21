@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_image"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/login_linear_layout"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_tv_signIn"
+                android:text="@string/sign_up"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/grey"
+                android:textSize="30sp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+            <FrameLayout
+                android:id="@+id/frame_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ed_name"
+                    android:layout_width="270dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:hint="@string/name"
+                    android:inputType="textPersonName"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="45dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:background="@drawable/login_textview"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/icon_new_user" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ed_user_name"
+                    android:layout_width="270dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:hint="@string/username"
+                    android:inputType="text"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="45dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:background="@drawable/login_textview"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/icon_username" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frame_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ed_email"
+                    android:layout_width="270dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="45dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:background="@drawable/login_textview"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/icon_email" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ed_mobile"
+                    android:layout_width="270dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:hint="@string/mobile"
+                    android:inputType="phone"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="45dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:background="@drawable/login_textview"/>
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/icon_mobile" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/grey">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/ed_password"
+                        android:layout_width="270dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_vertical"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="45dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textStyle="normal"
+                        android:typeface="sans"
+                        android:background="@drawable/login_textview"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/password" />
+            </FrameLayout>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/curved_button"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/register"
+                android:textSize="25sp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/login_profile_pic"
+            android:src="@drawable/profile_image"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

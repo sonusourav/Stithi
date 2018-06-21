@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stithi</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="facebook_app_id">309200712951187</string>
+    <string name="fb_login_protocol_scheme">fb309200712951187</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_without_login">Continue without login</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account! Register here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="dob">Date of Birth</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="terms">Please agree to the terms and conditions.</string>
+    <string name="register">Register</string>
+
+</resources>
